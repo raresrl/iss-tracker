@@ -5,7 +5,6 @@ from models import Position
 
 class PositionRepository:
     def __init__(self, db_file="iss.db"):
-        # check_same_thread=False: FastAPI (step 3) runs requests on other threads
         self.conn = sqlite3.connect(db_file, check_same_thread=False)
         self._create_table()
 
