@@ -8,7 +8,8 @@ repository.py: PositionRepository class-saves and counts readings in SQLite
 tracker.py: runs everything
 
 HOW TO RUN:
-pip install -r requirements.txt
+pip install 
+-r requirements.txt
 
 python tracker.py
 
